@@ -1,0 +1,93 @@
+3大系列
+https://www.redhat.com/en   Centos 
+https://www.debian.org/     ubuntu
+https://www.suse.com/       
+
+wang2546
+
+关机
+poweroff
+
+重启  
+reboot
+
+帮助 
+
+查看IP地址
+ip addr
+
+ping www.qq.com 用于检测网络通不通
+
+切换目录  
+cd  路径
+
+查看文件
+cat 文件名
+
+vi 工具
+
+编辑文件
+vi 文件名
+按i
+按Esc
+输入:wq
+
+重启网络服务
+systemctl restart network
+
+添加新用户
+adduser - d 用户目录 -p 密码 新用户名
+
+切换用户
+su 用户名
+
+切换到家目录
+cd ~
+
+切换到 /etc
+cd /etc
+
+认识目录权限组成
+
+-rw-r--r--.  1 root root       44 10月 31 2018 shells
+drwxr-xr-x.  2 root root       62 4月  11 2018 skel
+
+-开头的表示这是个文件
+d开头的表示这个是文件夹（目录）
+后面有9位字符，9位字符分成3组
+第一组表示root用户权限
+第二组表示组用户的权限
+第三组表示其它用户的权限
+r  表示读的权限
+w  表示写的权限 
+x  表示执行的权限
+
+
+
+
+创建文件  vi 文件名
+
+创建目录 mkdir 目录名
+
+删除文件 rm 文件名
+
+删除目录 rm -rf 目录名
+
+
+如何查看帮助？
+在命令后面添加参数  --help
+
+
+
+
+修改拥有者，修改组，修改权限
+软件安装
+vi工具使用
+防火墙 端口
+安装JDK
+安装MySQL
+安装Tomcat
+安装Apache
+
+
+http://c.biancheng.net/view/707.html

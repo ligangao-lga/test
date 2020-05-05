@@ -1,0 +1,7 @@
+select  id,county_company,cxzddyz from power_didianya order by id desc limit 0,10  
+select  id,county_company,cxzddyz from power_didianya order by id desc limit 10（从什么开始）,10（取多少条）  
+select  id,county_company,cxzddyz from power_didianya order by id asc
+
+排序分页数
+pageable  pageable =pagerequst.of(2,2);
+page<user> pagess=userdao.findall(pageable)
